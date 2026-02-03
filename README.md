@@ -90,15 +90,26 @@ src/
 └── com/
 └── joaopedro/
 └── cofrinho/
+└── app/
+| └── Testes.java
 └── main/
 | └── Main.java
 └── model/
-└── Cofrinho.java
-└── Moeda.java
-└── Real.java
-└── Dolar.java
+| └── Cofrinho.java
+| └── Moeda.java
+| └── Real.java
+| └── Dolar.java
 └── Euro.java
 
 ---
 
-## Obs: Depois de baixar, compile e execute o programa.
+## ▶️ Como Executar:
+
+1. Compile os arquivos:
+```bash
+javac -d out src/com/joaopedro/cofrinho/**/*.java
+```
+2. Execute o programa:
+```bash
+java -cp out com.joaopedro.cofrinho.main.Main
+```
